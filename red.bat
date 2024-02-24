@@ -15,6 +15,7 @@ if exist "C:\3000soft\Red Spider" (
     taskkill /F /IM REDAgent.exe /T
     timeout /nobreak 2 > nul
     rd /s /q "C:\3000soft\fuckRed Spider"
+    echo 完成
 ) else (
     echo 文件不存在（C:\3000soft\Red Spider）
 )
